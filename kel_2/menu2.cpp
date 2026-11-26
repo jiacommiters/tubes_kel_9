@@ -3,6 +3,9 @@
 #include "parent2.h"
 #include "child2.h"
 #include "relasi2.h"
+#include <iostream>
+
+using namespace std;
 
 void menu_2(List_parent2 &L_p2, List_child2 &L_c2, List_rel2 &L_r2) {
 
@@ -16,18 +19,18 @@ void menu_2(List_parent2 &L_p2, List_child2 &L_c2, List_rel2 &L_r2) {
     int pilihan;
     do {
         cout << "\n==================================================\n";
-        cout << "  Contoh Menu M-N dengan List RELASI Terpisah \n";
+        cout << "  KEANGGOTAAN DAN PEMINJAMAN \n";
         cout << "==================================================\n";
-        cout << "1. Insert PARENT Baru\n";
-        cout << "2. Show List PARENT\n";
-        cout << "3. Search PARENT\n";
-        cout << "4. Insert CHILD Baru\n";
-        cout << "5. Show List CHILD\n";
-        cout << "6. Search CHILD\n";
-        cout << "7. Add CHILD ke dalam PARENT\n";
-        cout << "8. Remove CHILD dari PARENT\n";
-        cout << "9. Delete CHILD\n";
-        cout << "10. Print All\n";
+        cout << "1. Tambah Anggota Baru\n";
+        cout << "2. Tampilkan List Anggota\n";
+        cout << "3. Cari Anggota\n";
+        cout << "4. Tambah Data Peminjaman\n";
+        cout << "5. Tampilkan List Peminjaman\n";
+        cout << "6. Cari Data Peminjaman\n";
+        cout << "7. Menambah Peminjaman ke Anggota\n";
+        cout << "8. Menghapus Peminjaman dari Anggota\n";
+        cout << "9. Hapus Peminjaman\n";
+        cout << "10. Tampilkan Semua Anggota dan Peminjaman\n";
         cout << "0. Kembali\n";
         cout << "Pilih modul: ";
         cin >> pilihan;
